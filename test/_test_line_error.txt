@@ -1,0 +1,7 @@
+4
+Qwerty-Asdf,14
+Asdf-Asdf,1
+Qwerty--Cvfds,5
+Asdf-Banan,12
+Cvfds-Banan,7
+Asdf-Qwerty,10

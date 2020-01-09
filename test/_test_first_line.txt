@@ -1,0 +1,6 @@
+
+AB-BC,8
+AB-CD,14
+BC-CD,3
+CD-DE,5
+AE-DE,7
