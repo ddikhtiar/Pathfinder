@@ -9,6 +9,8 @@ void mx_list_sort(t_list_p *list, char **arr_isl) {
 	t_path *first;
 	t_path *second;
 
+    if (!list)
+		return;
 	while (copy->next_path != NULL) {
 		first = copy->link;
 		second = copy->next_path->link;

@@ -19,7 +19,8 @@ void mx_list_of_short(t_list_p **shrt, t_list_p *list, t_data *data) {
 
                 if (mx_strcmp(fl->link->isl_name, data->AU[i]) == 0
                     && mx_strcmp(end->isl_name, data->AU[j]) == 0
-                    && sum == min && mx_only_one(shrt, fl->link))
+                    && sum == min
+                    && mx_only_one(shrt, fl->link))
                     mx_push_path_back(shrt, mx_duplicate_path(fl->link));
                 fl = fl->next_path;
             }
